@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Built-By: lborbon
+Build-Jdk: 1.8.0_91
+Created-By: Apache Maven Bundle Plugin
+Bnd-LastModified: 1568998641754
+Bundle-Activator: com.bbva.capx.CAPXT00001COTransaction
+Bundle-Category: transaction
+Bundle-Description: TransactionApiGoogle
+Bundle-ManifestVersion: 2
+Bundle-Name: CAPXT000
+Bundle-SymbolicName: CAPXT000-01-CO
+Bundle-Version: 01.0.0.CO
+Export-Package: com.bbva.capx;version="1.0.0";uses:="com.bbva.capx.dto
+ .proy1,com.bbva.elara.transaction"
+Import-Package: com.bbva.elara.domain.transaction;version="0.0",com.bb
+ va.elara.domain.transaction.response;version="0.0",com.bbva.elara.tra
+ nsaction;version="0.0",com.bbva.capx.dto.proy1;version="0.0",com.bbva
+ .capx.lib.r004;version="0.0"
+Originally-Created-By: Maven Integration for Eclipse
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.0.0.201805111645
+

@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1568998635177
+Build-Jdk: 1.8.0_91
+Built-By: lborbon
+Bundle-Category: library-intapiconnector
+Bundle-Description: Calcula tiempo y distancia entre dos puntos
+Bundle-ManifestVersion: 2
+Bundle-Name: CAPXR004
+Bundle-SymbolicName: CAPXR004-0.0.0
+Bundle-Version: 0.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.bbva.capx.lib.r004;version="0.0.0";uses:="com.bbva.c
+ apx.dto.proy1"
+Import-Package: com.bbva.capx.dto.proy1;version="0.0",org.osgi.framework
+ ;version="0.0";resolution:=optional,com.bbva.elara.aspect;version="0.0"
+ ;resolution:=optional,spring;version="0.0";resolution:=optional,org.spr
+ ingframework.aop;version="0.0";resolution:=optional,org.springframework
+ .aop.framework;version="0.0";resolution:=optional,org.aopalliance.aop;v
+ ersion="0.0";resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.0.0.201805111645

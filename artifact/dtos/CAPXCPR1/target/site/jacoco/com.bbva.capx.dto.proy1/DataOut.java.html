@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DataOut.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">CAPXCPR1</a> &gt; <a href="index.source.html" class="el_package">com.bbva.capx.dto.proy1</a> &gt; <span class="el_source">DataOut.java</span></div><h1>DataOut.java</h1><pre class="source lang-java linenums">package com.bbva.capx.dto.proy1;
+
+import java.io.Serializable;
+
+public class DataOut implements Serializable{
+
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 740016102523473742L;
+	/**
+	 * 
+	 */
+	private String distance;
+	private String duration;
+	private int price;
+	/**
+	 * @return the distance
+	 */
+	public String getDistance() {
+<span class="fc" id="L22">		return distance;</span>
+	}
+	/**
+	 * @param distance the distance to set
+	 */
+	public void setDistance(String distance) {
+<span class="fc" id="L28">		this.distance = distance;</span>
+<span class="fc" id="L29">	}</span>
+	/**
+	 * @return the duration
+	 */
+	public String getDuration() {
+<span class="fc" id="L34">		return duration;</span>
+	}
+	/**
+	 * @param duration the duration to set
+	 */
+	public void setDuration(String duration) {
+<span class="fc" id="L40">		this.duration = duration;</span>
+<span class="fc" id="L41">	}</span>
+	/**
+	 * @return the price
+	 */
+	public int getPrice() {
+<span class="fc" id="L46">		return price;</span>
+	}
+	/**
+	 * @param price the price to set
+	 */
+	public void setPrice(int price) {
+<span class="fc" id="L52">		this.price = price;</span>
+<span class="fc" id="L53">	}</span>
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+<span class="fc" id="L59">		return &quot;DataOut [distance=&quot; + distance + &quot;, duration=&quot; + duration + &quot;, price=&quot; + price + &quot;]&quot;;</span>
+	}
+	/* (non-Javadoc)
+	 * @see java.lang.Object#hashCode()
+	 */
+	@Override
+	public int hashCode() {
+<span class="fc" id="L66">		final int prime = 31;</span>
+<span class="fc" id="L67">		int result = 1;</span>
+<span class="fc bfc" id="L68" title="All 2 branches covered.">		result = prime * result + ((distance == null) ? 0 : distance.hashCode());</span>
+<span class="fc bfc" id="L69" title="All 2 branches covered.">		result = prime * result + ((duration == null) ? 0 : duration.hashCode());</span>
+<span class="fc" id="L70">		result = prime * result + price;</span>
+<span class="fc" id="L71">		return result;</span>
+	}
+	/* (non-Javadoc)
+	 * @see java.lang.Object#equals(java.lang.Object)
+	 */
+	@Override
+	public boolean equals(Object obj) {
+<span class="fc bfc" id="L78" title="All 2 branches covered.">		if (this == obj)</span>
+<span class="fc" id="L79">			return true;</span>
+<span class="fc bfc" id="L80" title="All 2 branches covered.">		if (obj == null)</span>
+<span class="fc" id="L81">			return false;</span>
+<span class="fc bfc" id="L82" title="All 2 branches covered.">		if (getClass() != obj.getClass())</span>
+<span class="fc" id="L83">			return false;</span>
+<span class="fc" id="L84">		DataOut other = (DataOut) obj;</span>
+<span class="fc bfc" id="L85" title="All 2 branches covered.">		if (distance == null) {</span>
+<span class="fc bfc" id="L86" title="All 2 branches covered.">			if (other.distance != null)</span>
+<span class="fc" id="L87">				return false;</span>
+<span class="fc bfc" id="L88" title="All 2 branches covered.">		} else if (!distance.equals(other.distance))</span>
+<span class="fc" id="L89">			return false;</span>
+<span class="fc bfc" id="L90" title="All 2 branches covered.">		if (duration == null) {</span>
+<span class="fc bfc" id="L91" title="All 2 branches covered.">			if (other.duration != null)</span>
+<span class="fc" id="L92">				return false;</span>
+<span class="fc bfc" id="L93" title="All 2 branches covered.">		} else if (!duration.equals(other.duration))</span>
+<span class="fc" id="L94">			return false;</span>
+<span class="fc bfc" id="L95" title="All 2 branches covered.">		if (price != other.price)</span>
+<span class="fc" id="L96">			return false;</span>
+<span class="fc" id="L97">		return true;</span>
+	}
+	public DataOut() {
+<span class="fc" id="L100">		super();</span>
+		// TODO Auto-generated constructor stub
+<span class="fc" id="L102">	}</span>
+
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>

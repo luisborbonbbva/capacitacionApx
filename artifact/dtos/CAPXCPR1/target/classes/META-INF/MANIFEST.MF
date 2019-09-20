@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1568998631270
+Build-Jdk: 1.8.0_91
+Built-By: lborbon
+Bundle-Category: dto
+Bundle-Description: Calcula tiempo y distancia entre dos puntos
+Bundle-ManifestVersion: 2
+Bundle-Name: CAPXCPR1
+Bundle-SymbolicName: CAPXCPR1-0.0.0
+Bundle-Version: 0.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.bbva.capx.dto.proy1;version="0.0.0";uses:="com.bbva.
+ apx.dto"
+Import-Package: com.bbva.apx.dto;version="[1.0,2)",org.apache.commons.la
+ ng3.builder;version="[3.2,4)"
+Originally-Created-By: Maven Integration for Eclipse
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.0.0.201805111645
